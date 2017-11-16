@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+  web:
+    build: .
+    ports:
+      - "4000:8080"
+    volumes:
+      - .:/go/src/github.com/mrzacarias/go_server

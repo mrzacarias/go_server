@@ -13,8 +13,10 @@ Small Go Server that access two Weather APIs concurrently.
 
 `./go_server`
 
-This will open the server at localhost:8080
+This will open the server at [localhost:8080](http://localhost:8080/weather/boston)
 
-## Testing
+## Docker
 
-`http://localhost:8080/weather/boston`
+`docker-compose build && docker-compose up -d`
+
+This will open the server at [localhost:4000](http://localhost:4000/weather/boston)
